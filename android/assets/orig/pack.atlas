@@ -4,30 +4,65 @@ size: 2048,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Beans
+  rotate: false
+  xy: 804, 664
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
+Bread
+  rotate: false
+  xy: 804, 409
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
+Shoes
+  rotate: false
+  xy: 1373, 664
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
+Staff
+  rotate: false
+  xy: 804, 154
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
+Sword
+  rotate: false
+  xy: 1373, 409
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
 fantasybutton
   rotate: false
-  xy: 804, 780
+  xy: 1373, 257
   size: 418, 150
   orig: 418, 150
   offset: 0, 0
   index: -1
 fantasybuttonClicked
   rotate: false
-  xy: 804, 628
+  xy: 804, 2
   size: 418, 150
   orig: 418, 150
   offset: 0, 0
   index: -1
 glow
   rotate: false
-  xy: 2, 2
+  xy: 1942, 875
   size: 42, 42
   orig: 42, 42
   offset: 0, 0
   index: -1
 whitetreebytannaquil
   rotate: false
-  xy: 2, 46
+  xy: 2, 33
   size: 800, 884
   orig: 800, 884
   offset: 0, 0

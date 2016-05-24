@@ -11,7 +11,7 @@ import com.uwsoft.editor.renderer.scripts.IScript;
 public class ButtonScript implements IScript{
 
     private Entity button;
-    String sName;
+
 
 
     @Override
@@ -24,7 +24,7 @@ public class ButtonScript implements IScript{
             }
             @Override
             public void touchDown() {
-                System.out.println(sName);
+                System.out.println("ive been Clicked");
             }
             @Override
             public void clicked() {
@@ -42,8 +42,5 @@ public class ButtonScript implements IScript{
     @Override
     public void dispose() {
 
-    }
-    public void getText(String sText){
-        sName= sText;
     }
 }

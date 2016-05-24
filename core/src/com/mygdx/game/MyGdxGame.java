@@ -18,7 +18,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	private SceneLoader sceneLoader;
 	private Viewport viewport;
 	ItemWrapper root;
-	String[] strings= {"beans","shoes","bread","knife"};
+
 
 	
 	@Override
@@ -29,7 +29,6 @@ public class MyGdxGame extends ApplicationAdapter {
 		sceneLoader.loadScene("MainScene",viewport);
 		sceneLoader.addComponentsByTagName("button", ButtonComponent.class);
 		root= new ItemWrapper(sceneLoader.getRoot());
-		buttonScript.getText(strings[0]);
 		root.getChild("button").addScript(buttonScript);
 		root.getChild("button2").addScript(buttonScript);
 		root.getChild("button3").addScript(buttonScript);
