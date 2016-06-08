@@ -25,30 +25,37 @@ Shoes
   orig: 567, 253
   offset: 0, 0
   index: -1
-Staff
+Spear
   rotate: false
   xy: 804, 154
   size: 567, 253
   orig: 567, 253
   offset: 0, 0
   index: -1
-Sword
+Staff
   rotate: false
   xy: 1373, 409
   size: 567, 253
   orig: 567, 253
   offset: 0, 0
   index: -1
+Sword
+  rotate: false
+  xy: 1373, 154
+  size: 567, 253
+  orig: 567, 253
+  offset: 0, 0
+  index: -1
 fantasybutton
   rotate: false
-  xy: 1373, 257
+  xy: 804, 2
   size: 418, 150
   orig: 418, 150
   offset: 0, 0
   index: -1
 fantasybuttonClicked
   rotate: false
-  xy: 804, 2
+  xy: 1224, 2
   size: 418, 150
   orig: 418, 150
   offset: 0, 0

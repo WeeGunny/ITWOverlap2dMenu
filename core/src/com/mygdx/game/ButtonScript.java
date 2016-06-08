@@ -15,8 +15,10 @@ public class ButtonScript implements IScript{
 
 
     @Override
+    //method takes in an Entity which is an object from the stage
     public void init(Entity entity) {
         button= entity;
+        // adds a listener to the Entity's button component which was added in the main file
         button.getComponent(ButtonComponent.class).addListener(new ButtonComponent.ButtonListener(){
             @Override
             public void touchUp() {
